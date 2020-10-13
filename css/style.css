@@ -49,6 +49,16 @@ g {
     width: 200px;
 }
 
+/* Legend */
+#legend {
+    font-size: 18px;
+    text-align: center;
+    min-height: 300px;
+    min-width: 180px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 /* Title */
 #title {
     font-size: 28px;
@@ -72,7 +82,7 @@ g {
     min-height: 160px;
     width: 200px;
     margin-top: 2px;
-    color: purple;
+    color: black;
     font-size: 24px;
     text-align: center;
     margin-bottom: 5px;
@@ -80,8 +90,9 @@ g {
 
 #tooltip hr{
     width: 80%;
-    color: purple;
-    background-color: purple;
+    color: black;
+    background-color: black;
     height: 1px;
     border: none;
 }
+
