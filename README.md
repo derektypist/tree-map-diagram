@@ -35,5 +35,18 @@ which displays more information about the area.
 My tooltip should have a `data-value` property that corresponds to the `data-value`
 of the active area.
 
+This project uses Movie Sales.  The JSON Data is at 
+`https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json`.
+
+The children fields are name, category and value.
+
+Category consists of Action, Drama, Adventure, Family, Animation, Comedy and Biography.
+
 [Tree Map Wireframe](wireframes/wireframe-treemap-1.png) and [Legend Wireframe](wireframes/wireframe-treemap-legend.png)
 are for illustration purposes.
+
+## Features
+
+This tree map includes a legend.  If there was more time, would include more
+category types.
+
