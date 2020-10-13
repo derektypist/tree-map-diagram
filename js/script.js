@@ -83,5 +83,24 @@ let drawTreeMap = () => {
             tooltip.transition().style('visibility', 'hidden');
         });
 
+        block.append('text')
+            .text((movie) => {
+                return movie['data']['name'];
+            })
+            .attr('x', 5)
+            .attr('y', 20);
 
 };
+
+// Get JSON Data
+d3.json(movieDataUrl).then(
+    (data, error) => {
+        if(error) {
+            console.log(error);
+        } else {
+            movieData = data;
+            console.log(movieData);
+            drawTreeMap();
+        }
+    }
+);
