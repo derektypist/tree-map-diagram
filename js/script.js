@@ -33,5 +33,55 @@ let drawTreeMap = () => {
             return 'translate(' + movie['x0'] + ', ' + movie['y0'] + ')';
         });
 
+    block.append('rect')
+        .attr('class', 'tile')
+        .attr('fill', (movie) => {
+            let category = movie['data']['category'];
+
+            // Set Color according to category
+            if (category === 'Action') {
+                return 'orange';
+            } else if (category === 'Drama') {
+                return 'yellow';
+            } else if (category === 'Adventure') {
+                return 'lightblue';
+            } else if (category === 'Family') {
+                return 'lightgreen';
+            } else if (category === 'Animation') {
+                return 'lawngreen';
+            } else if (category === 'Comedy') {
+                return 'darkseagreen';
+            } else if (category === 'Biography') {
+                return 'pink';
+            }
+        })
+        .attr('data-name', (movie) => {
+            return movie['data']['name'];
+        })
+        .attr('data-category', (movie) => {
+            return movie['data']['category'];
+        })
+        .attr('data-value', (movie) => {
+            return movie['data']['value'];
+        })
+        .attr('width', (movie) => {
+            return movie['data']['x1'] - movie['data']['x0'];
+        })
+        .attr('height', (movie) => {
+            return movie['data']['y1'] - movie['data']['y0'];
+        })
+        .on('mouseover', (e, movie) => {
+            tooltip.transition().style('visibility', 'visible');
+
+            // Get revenue
+            let revenue = movie['data']['value'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+            tooltip.html(`$ ` + revenue + `<hr/>` + movie['data']['name']);
+            tooltip.attr('data-value', movie['data']['value']);
+        })
+        .on('mouseout', (movie) => {
+            tooltip.transition().style('visibility', 'hidden');
+        });
+
 
 };
