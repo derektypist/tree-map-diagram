@@ -42,6 +42,16 @@ The children fields are name, category and value.
 
 Category consists of Action, Drama, Adventure, Family, Animation, Comedy and Biography.
 
+Colors for legend - category
+
+* If category is Action, set the color to `orange`.
+* If category is Drama, set the color to `yellow`.
+* If category is Adventure, set the color to `lightblue`.
+* If category is Family, set the color to `lightgreen`.
+* If category is Animation, set the color to `lawngreen`.
+* If category is Comedy, set the color to `darkseagreen`.
+* If category is Biography, set the color to `pink`.
+
 [Tree Map Wireframe](wireframes/wireframe-treemap-1.png) and [Legend Wireframe](wireframes/wireframe-treemap-legend.png)
 are for illustration purposes.
 
