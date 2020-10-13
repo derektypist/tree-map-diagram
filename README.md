@@ -71,7 +71,9 @@ This project is deployed on GitHub Pages at the main branch.
 
 ### Content
 
-Did a Google Search on `freecodecamp tree map diagram`.
+Did a Google Search on `freecodecamp treemap`.
+HTML, CSS and JavaScript taken from [Notion](https://www.notion.so/Visualize-Data-with-a-Treemap-Diagram-1192d4ebd1164277b769f74eaf7a5d26),
+which was accessed on 13 October 2020.
 
 ### Media
 
@@ -80,6 +82,9 @@ JSON Data taken from `https://cdn.freecodecamp.org/testable-projects-fcc/data/tr
 ### Acknowledgements
 
 freecodecamp.org for the JSON Data (Movie Sales)
+
+[YouTube Video](https://www.youtube.com/watch?v=wvfBn7GCCHk) and [Notion](https://www.notion.so/Visualize-Data-with-a-Treemap-Diagram-1192d4ebd1164277b769f74eaf7a5d26)
+from [Ganesh H](https://www.youtube.com/channel/UCsbvkXO5gWeh4KI6GoIMThQ), which was accessed on 13 October 2020.
 
 
 
