@@ -83,12 +83,12 @@ let drawTreeMap = () => {
             tooltip.transition().style('visibility', 'hidden');
         });
 
-        block.append('text')
-            .text((movie) => {
+    block.append('text')
+        .text((movie) => {
                 return movie['data']['name'];
-            })
-            .attr('x', 5)
-            .attr('y', 20);
+        })
+        .attr('x', 5)
+        .attr('y', 20);
 
 };
 
