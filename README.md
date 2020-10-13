@@ -67,5 +67,19 @@ Once all tests have passed, the testing link may be deleted.
 
 This project is deployed on GitHub Pages at the main branch.
 
+## Credits
+
+### Content
+
+Did a Google Search on `freecodecamp tree map diagram`.
+
+### Media
+
+JSON Data taken from `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json`.
+
+### Acknowledgements
+
+freecodecamp.org for the JSON Data (Movie Sales)
+
 
 
