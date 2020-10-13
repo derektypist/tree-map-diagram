@@ -3,3 +3,19 @@ html, body {
     font-family: "Roboto", Arial, Verdana, sans-serif;
     min-height: 100%;
 }
+
+body {
+    background-color: floralwhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+}
+
+svg {
+    background-color: black;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+}
