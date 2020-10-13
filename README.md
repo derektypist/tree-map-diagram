@@ -55,5 +55,13 @@ category types.
 This project uses HTML5, CSS3, JavaScript, D3 and JSON.  Other technologies include
 Google Fonts.
 
+## Testing
+
+Add `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+above `</html>`.  Preview `index.html` and select Run Tests.  If some or all the
+test have failed, go back and edit the code until all tests have passed.
+
+Once all tests have passed, the testing link may be deleted.
+
 
 
