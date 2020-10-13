@@ -50,3 +50,10 @@ are for illustration purposes.
 This tree map includes a legend.  If there was more time, would include more
 category types.
 
+## Technologies
+
+This project uses HTML5, CSS3, JavaScript, D3 and JSON.  Other technologies include
+Google Fonts.
+
+
+
