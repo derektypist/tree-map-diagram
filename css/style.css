@@ -20,6 +20,10 @@ svg {
     border-radius: 5px;
 }
 
+g {
+    color: black;
+}
+
 /* Canvas */
 #canvas {
     min-width: 1000px;
@@ -43,4 +47,41 @@ svg {
     align-items: center;
     margin-left: 50px;
     width: 200px;
+}
+
+/* Title */
+#title {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* Description */
+#description {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Tree Map */
+.tile:hover {
+    color: mintcream;
+}
+
+#tooltip {
+    visibility: hidden;
+    min-height: 160px;
+    width: 200px;
+    margin-top: 2px;
+    color: purple;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#tooltip hr{
+    width: 80%;
+    color: purple;
+    background-color: purple;
+    height: 1px;
+    border: none;
 }
