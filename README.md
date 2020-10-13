@@ -63,5 +63,9 @@ test have failed, go back and edit the code until all tests have passed.
 
 Once all tests have passed, the testing link may be deleted.
 
+## Deployment
+
+This project is deployed on GitHub Pages at the main branch.
+
 
 
