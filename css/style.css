@@ -74,7 +74,7 @@ g {
 
 /* Tree Map */
 .tile:hover {
-    color: mintcream;
+    fill: lavender;
 }
 
 #tooltip {
