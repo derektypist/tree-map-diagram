@@ -71,6 +71,9 @@ Add `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.j
 above `</html>`.  Preview `index.html` and select Run Tests.  If some or all the
 test have failed, go back and edit the code until all tests have passed.
 
+When hovering over an area, the fill color changes to lavender.  When leaving the area,
+the fill color goes back to what it was.  For example, the animation area changes to lawngreen.
+
 Once all tests have passed, the testing link may be deleted.
 
 ## Deployment
