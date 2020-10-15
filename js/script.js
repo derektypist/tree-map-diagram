@@ -65,10 +65,10 @@ let drawTreeMap = () => {
             return movie['data']['value'];
         })
         .attr('width', (movie) => {
-            return movie['data']['x1'] - movie['data']['x0'];
+            return movie['x1'] - movie['x0'];
         })
         .attr('height', (movie) => {
-            return movie['data']['y1'] - movie['data']['y0'];
+            return movie['y1'] - movie['y0'];
         })
         .on('mouseover', (e, movie) => {
             tooltip.transition().style('visibility', 'visible');
