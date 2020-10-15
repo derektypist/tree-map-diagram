@@ -78,7 +78,7 @@ Once all tests have passed, the testing link may be deleted.
 
 ## Deployment
 
-This project is deployed on [GitHub Pages](https://derektypist.github.io/tree-map-diagram) at the main branch.
+This project is deployed on [GitHub Pages](https://derektypist.github.io/tree-map-diagram/) at the main branch.
 
 ## Credits
 
